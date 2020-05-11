@@ -12,5 +12,5 @@ public struct AnyError: Error {
     self.message = message
   }
   
-  let message: String
+  public let message: String
 }
